@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom  styles */
+    
+
+
+.container{
+    max-width: 1150px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    background:linear-gradient(to top left, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6) ), url(assets/main-background01.jpeg) no-repeat;
+    background-size:cover;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.box{
+    width:31%;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 250px;
+    font-size: 24px;
+    margin-top: 75px;
+}
+.box-1{
+    background-color:#FF0348;
+}
+.box-2{
+    background-image: linear-gradient( to right,#2A2B22, #FF0348 );}
+
+.box-3{
+    background-image:radial-gradient(  #FF0348,#2A2B22 );
+}
+
+.box-4{
+    width: 90%;
+    height: 350px;
+    line-height: 350px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px black solid;
+    background: linear-gradient(to top left, rgba(236, 14, 6, 0.7),rgba(0, 0, 0, 0) ), url(assets/sub-background02.jpeg) no-repeat;
+    background-size: 100% auto;
+    margin: 50px auto;
+    margin-top: 75px;
+    
+
+}
