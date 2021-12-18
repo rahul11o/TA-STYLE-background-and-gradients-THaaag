@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom Styles */
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.together{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+/* hero-Header */
+
+.hero-header{
+    background-color:rgb(32,34,47);
+    padding:  40px 0px;
+    color: #949AB9;
+    font-weight: 100;
+    padding-bottom: 150px;
+    position: absolute;
+    width: 100%;
+    
+
+}
+
+.hero-header h1{
+    font-size: 25px;
+    margin-bottom: 3px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 900px;
+}
+
+.btn{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #499DC9, #3DCF93);
+    margin-left: 10px;
+}
+
+.btn-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:#232C43;
+    margin-left: 4px;
+}
+/* Main */
+main{
+    background-color: #1E2029;
+    padding-top: 125px;
+    padding-bottom: 35px;
+}
+
+/* section */
+.card-section{
+    margin-bottom: 70px;
+}
+.card{
+    width: 270px;
+    height: 225px;
+    border-radius: 6px;
+    text-align: center;
+    background-color:rgb(37,43,67);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+.border{
+    height: 4px;
+    width: 100%;
+    border-radius:6px;
+    background-color:#1C8EF0;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+}
+.instagram .border{
+    background:linear-gradient(to right,rgb(245,191,117),rgb(220,85,145));
+    
+}
+.youtube .border{
+    background-color: #B40E2E;
+
+}
+.card-header img{
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    margin-right: 8px;
+   background-color: #178FF4;
+}
+.instagram .card-header img{
+    background-color: #E57A83;
+}
+
+.youtube .card-header img{
+    background-color: #B40E2E;
+}
+.card-header h3{
+    color:  #949AB9;
+}
+
+.card-body div{
+    font-size: 60px;
+    font-weight: 900px;
+    color: white;
+}
+
+.card-body p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:  #949AB9;
+}
+.card-footer img{
+    width: 12px;
+    height: 12px;
+    margin-right: 04px;
+}
+.card-footer span{
+    color: #2BA28E;
+    text-transform: capitalize;
+}
+.youtube .card-footer span{
+    color:#B40E2E ;
+}
+
+/* overview-section */
+
+.overview-section .flex{
+    flex-wrap: wrap;
+}
+.overview-section h2{
+   margin: 50px 0px;
+   font-size: 25px;
+   color: white;
+}
+.overview-card{
+    padding: 0px 24px;
+    height: 125px;
+    width: 270px;
+    position: static;
+    border: 2px solid black;
+    margin-bottom: 35px;
+   
+}
+.overview-card .header img{
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: #178FF4;
+}
+.overview-section .instagram .header img{
+   
+    background-color: #E57A83;
+}
+.overview-section .youtube .header img{
+   
+    background-color:#B40E2E  ;
+}
+.overview-card .header h3{
+    color:  #949AB9;
+}
+.overview-card .body img{
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+}
+.overview-card .body p{
+    font-size: 35px;
+    color: white;
+    font-weight: 700px;
+}
+.overview-card .body span{
+    color:#2BA28E ;
+}
+.overview-card .body .red{
+    color:#B40E2E ;
+}
